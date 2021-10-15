@@ -1,3 +1,6 @@
+GitLab tutorials: October 14, 2021
+GitHub account created: July 2013
+
 1)
 cam@ayyvee assignment2 % git add docs/status.txt
 cam@ayyvee assignment2 % git commit
