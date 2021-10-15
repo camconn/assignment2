@@ -1,0 +1,41 @@
+1)
+cam@ayyvee assignment2 % git add docs/status.txt
+cam@ayyvee assignment2 % git commit
+[master dd53720] Added docs folder
+ 1 file changed, 6 insertions(+)
+ create mode 100644 docs/status.txt
+
+2)
+9 commits
+Command: git log --oneline | wc -l
+
+3)
+It was last modified by me on: Thu Oct 14 20:25:02 2021 -0500
+Command: git log -p README.md
+
+4)
+Branches are used to allow multiple developers to work on the same project at
+once.  Branches allow developers to work on exploratory changes to their code
+while leaving the main "working" code unchanged with little risk.
+
+5)
+`git log` shows the commit history for a repository.
+`git status` shows the current state of a repository, if there are files that
+have changed since the HEAD commit, etc.
+
+6)
+Command: git log --follow -- Vehicle.h
+
+7)
+Command: git log --grep=file
+
+8)
+I. Inheritance: when a class inherits behaviors or attributes from a parent
+class it extends.
+II. Polymorphism: when one class can be treated as another class (e.g., A
+`Truck` or `Bus` that is treated as a `Car`) without special consideration by
+the programmer of a particular piece of code.
+III. Encapsulation: when the internal bookkeeping or details of how a class
+works are hidden from users of the class.
+
+
