@@ -38,4 +38,15 @@ the programmer of a particular piece of code.
 III. Encapsulation: when the internal bookkeeping or details of how a class
 works are hidden from users of the class.
 
+9)
+With the director/lieutenant models there are multiple people handling conflict
+resolution and merge issues. With the integration manager workflow, only the
+integration manager is pulling changes from each developer's personal repository.
 
+10)
+A team of 100s of developers would benefit from the dictator/lieutenant model
+because each lieutenant could handle a separate subsystem of the overall project
+and make integration easier for the dictator that controls the "blessed"
+repository. This example is actually what the Linux kernel uses, with Linus
+Torvalds (the kernel's original author) being the BDFL (Benevolent Dictator for
+Life) of the kernel code.
